@@ -22,13 +22,13 @@ def run():
     random_seed_for_shuffle = 0
     
     # Neural network parameters.
-    n_lstm_1 = 40
-    n_lstm_2 = 20
-    n_dense_3 = 20
+    n_lstm_1 = 50
+    n_lstm_2 = 30
+    n_dense_3 = 30
     n_dense_out = 6
     
     # Training parameters.
-    epochs = 50
+    epochs = 100
     batch_size = 32
     
     # Load and prepare data.
